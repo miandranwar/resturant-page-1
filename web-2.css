@@ -1,0 +1,565 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#landing {
+    width: 100%;
+    height: 60vh;
+    position: relative;
+}
+.big-pic {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0;
+    overflow: hidden;
+    z-index: -1;
+}
+.contact {
+    width: 100%;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0,0,0,0.5);
+}
+.contact a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+}
+.hero-heading {
+    padding-top: 50px;
+    text-align: center;
+}
+.hero-heading h1{
+    font-size: 6rem;
+    color: crimson; 
+    line-height: 30px;
+}
+.hero-heading span {
+    font-size: 2.5rem;
+    padding-left: 200px;
+    color: yellow;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+#landing .btn {
+    position: absolute;
+    top: 130px;
+    right: 13px;
+}
+#landing .btn a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.carousel-item {
+    width: 100%;
+    position: relative;
+}
+.slide-description {
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    font-size: 4rem;
+    color: #ffa500;
+    font-family: 'Satisfy', cursive;
+    line-height: 40px;
+}
+.slide-description span {
+    padding-left: 100px;
+    font-size: 2rem;
+}
+.left {
+    padding: 20px;
+    background-color: crimson;
+    color: #fff;
+}
+.left h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+.right {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.right img {
+    width: 100%;
+    height: 100%;
+}
+.right .description {
+    position: absolute;
+    top: 300px;
+    width: 250px;
+}
+.description h3 {
+    color: crimson;
+    font-family: 'Satisfy', cursive;
+    font-size: 3rem;
+    line-height: 0px;
+}
+.description h4 {
+    font-size: 2.8rem;
+    color: #ffa500;
+    line-height: 40px;
+    
+}
+
+
+/*  Menu */
+
+
+#three {
+    width: 100%;
+    height: 50vh;
+    margin: 100px 0px;
+    background-image: url(rohan-g--mwNJswDlXE-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+#three .add-text {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.add-text h1 {
+    font-size: 2rem;
+}
+
+
+/* Food Menu  */
+
+
+#food-menu {
+    width: 100%;
+    height: 560vh;
+    margin: 100px 0px;
+}
+.food-title {
+    width: 100%;
+    text-align: center;
+}
+.complete-menu {
+    margin: 50px auto;
+}
+.menu-card {
+    width: 90%;
+    border: dashed 2px rgb(228, 227, 227);
+    margin: 50px auto;
+    background-color: #ffa500;
+}
+.menu-card .title {
+    text-align: center;
+    padding: 10px 0px;
+    background-color: #DC143C;
+    color: #ffa500;
+    text-transform: uppercase;
+}
+.dish {
+    border-bottom: dashed 2px rgb(228, 227, 227);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+}
+.dish img {
+    width: 100px;
+    height: 100px;
+    margin: 20px 40px;
+}
+
+
+/*  Testimony */
+
+
+#testimony {
+    width: 100%;
+    height: 180vh;
+    background-image: url(lidye-1Shk_PkNkNw-unsplash.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 100px 0px;
+}
+.customers {
+    width: 90%;
+    margin: 50px auto;
+}
+.card {
+    background-color: transparent;
+    color: #fff;
+}
+.card img {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 10px auto;
+}
+
+
+/* Chef */
+
+
+#chef {
+    width: 100%;
+    height: 330vh;
+    margin: 50px 0px;
+}
+.chef-container {
+    margin: 50px 0px;
+}
+
+/* chef cards */
+.pic-1 {
+    background-image: url(Chef\ \(104\).png);
+}
+.pic-2 {
+    background-image: url(Chef\ \(43\).png);
+}
+.pic-3 {
+    background-image: url(Chef\ \(80\).png);
+}
+.pic-4 {
+    background-image: url(Chef\ \(94\).png);
+}
+#chef .card {
+    width: 350px;
+    height: 450px;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    border: solid 2px #DC143C;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+#chef .card .detail {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background-color:rgba(255, 165, 0,0.8);
+    transform: translateY(380px);
+    transition: 2s;
+}
+.detail p {
+    opacity: 0;
+    transition: 1s;
+    color: #fff;
+}
+.detail h2 {
+    text-align: center;
+    color: crimson;
+}
+#chef .card:hover .detail {
+    transform: translateY(0px);
+}
+#chef .card:hover .detail p {
+    transition-delay: 1s;
+    opacity: 1;
+}
+#secrets {
+    width: 100%;
+    height: 150vh;
+    margin: 50px 0px;
+}
+#secrets .container {
+    margin-top: 50px;
+    padding: 50px 0px;
+    overflow: hidden;
+    background-color: rgb(219, 215, 215);
+}
+.pic-frame {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.frame {
+    width: 350px;
+    height: 450px;
+    box-shadow: 0px 0px 10px 10px #ffa500;
+    background-image: url(dan-gold-4_jhDO54BYg-unsplash.jpg);
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+.benefits {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.benefits ul {
+    padding: 30px 50px ;
+}
+
+
+/* Blog */
+
+
+#blog {
+    width: 100%;
+    height: 300vh;
+    padding: 100px 20px;
+}
+.blog-post {
+    width: 100%;
+    height: 90%;
+}
+.post-card {
+    width: 90%;
+    height: 530px;
+    border: solid 1px #999;
+    margin: 50px auto;
+    position: relative;
+    border-radius: 5px;
+}
+.post-card img {
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #ffa500;
+}
+.post-card .contents {
+    position: absolute;
+    top: 260px;
+    left: 10px;
+    right: 10px;
+}
+#last-add {
+    width: 100%;
+    height: 50vh;
+    background-color: #ffa500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+    text-align: center;
+}
+#last-add h1 {
+    font-size: 1.5rem;
+    
+}
+#last-add .btn {
+    border: solid 2px crimson;
+    color: #000;
+}
+
+#footer {
+    width: 100%;
+    height: 130vh;
+    padding: 20px 0px;
+    background-color: #111;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #999;
+}
+.company {
+    width: 80%;
+    
+}
+#footer h4 {
+    color: #DC143C;
+}
+
+/* opening hours */
+.opening-hours {
+    width: 80%;
+    
+}
+.opening-hours .container {
+    width: 80%;
+}
+.opening-hours .time {
+    width: 50%;
+}
+.opening-hours .days {
+    width: 50%;
+    font-weight: 600;
+}
+.letter {
+    width: 80%;
+}
+#copyright {
+    width: 100%;
+    height: 10vh;
+    background-color: #ffa500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #000;
+}
+.company .social {
+    width: 100%;
+    text-align: center;
+}
+.social .iconify {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    filter: grayscale(1);
+    transition: 1s;
+}
+.social .iconify:hover {
+    filter: grayscale(0);
+}
+
+
+
+
+
+
+
+@media (min-width:700px){
+    #landing {
+        height: 120vh;
+    }
+    .contact {
+        width: 100%;
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+    }
+    .contact a {
+        
+        font-weight: 600;
+    }
+    .hero-heading h1{
+        position: absolute;
+        font-size: 18rem;
+        top: 300px;
+        left: 20%;
+        
+    }
+    .hero-heading span {
+        position: absolute;
+        top: 180px;
+        font-size: 10rem;
+        
+    }
+    #landing .btn {
+        top: 70%;
+        left: 10%;
+        background-color: #ffa500;
+    }
+    #landing .btn a {
+        color: #000;
+    }
+    .slide-description {
+        position: absolute;
+        top: 30%;
+        left: 10%;
+        font-size: 8rem;
+        line-height: 60px;
+    }
+    .slide-description span {
+        font-size: 4rem;
+    }
+    #booking {
+        padding: 50px 0px;
+    }
+    .right img {
+        position: absolute;
+        top: 0;
+        right: -100px;    
+    }
+    .right .description {
+        position: absolute;
+        top: 100px;
+        width: 350px;
+    }
+    .description h4 {
+        color: #ffa500;
+        font-size: 4rem;
+        line-height: 60px;
+    }
+    .add-text h5 {
+        font-size: 3rem;
+    }
+    .add-text h1 {
+        font-size: 4rem;
+    }
+    #food-menu {
+        height: 180vh;
+    }
+    .complete-menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu-card {
+        margin: 0px 20px;
+    }
+    #testimony, #chef {
+       
+        height: 100vh;
+    }
+    .customers {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #chef {
+        width: 90%;
+        margin: 60px auto;
+    }
+    .chef-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #chef .card {
+        margin: 0px 10px;
+    }
+    #secrets {
+        height: 100vh;
+    }
+
+    .pic-frame {
+        width: 50%;
+    }
+    .benefits {
+        width: 50%;
+        
+    }
+    #blog {
+        height: 120vh;
+        width: 90%;
+        margin: 0px auto;
+    }
+    .blog-post {
+        width: 100%;
+        margin: 50px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .post-card {
+        width: 40%;
+        margin: 0px 10px;
+    }
+    #footer {
+        height: 60vh;
+        padding:20px 50px;
+        flex-direction: row;
+    }
+    
+}
